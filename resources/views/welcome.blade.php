@@ -75,7 +75,7 @@
                 <div class="card product-card">
                     <img src="https://via.placeholder.com/200" class="card-img-top product-img" alt="Product Image">
                     <div class="card-body">
-                        <h5 class="card-title">Silver 1</h5>
+                        <h5 class="card-title">Silver Product</h5>
                         <p>Product number 1</p>
                         <p class="card-text">Price: $10.00</p>
                         <input type="hidden" name="description" value="This is Fake Product.">
@@ -91,7 +91,7 @@
                 <div class="card product-card">
                     <img src="https://via.placeholder.com/200" class="card-img-top product-img" alt="Product Image">
                     <div class="card-body">
-                        <h5 class="card-title">Golden 2</h5>
+                        <h5 class="card-title">Golden Product</h5>
                         <p>Product number 2</p>
                         <p class="card-text">Price: $100.00</p>
                         <a href="{{ route('stripe.checkout',['price' => 100, 'product' => 'gold']) }}" class="btn btn-primary">Buy Item</a>
